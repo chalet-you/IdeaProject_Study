@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="09_clickhouse_spark_2.11" />
+        <module name="07_kudu_spark_2.11" />
+        <module name="01_easyexcel" />
+        <module name="05_java_com_bridge" />
+        <module name="04_sftp" />
+        <module name="06_kudu_java" />
+        <module name="03_avro" />
+        <module name="02_poi" />
+        <module name="08_clickhouse_jdbc" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

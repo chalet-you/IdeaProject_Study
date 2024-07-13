@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.com.paic</groupId>
+    <artifactId>IdeaProject_Study</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <modules>
+        <module>01_easyexcel</module>
+        <module>02_poi</module>
+        <module>03_avro</module>
+        <module>04_sftp</module>
+        <module>05_java_com_bridge</module>
+        <module>06_kudu_java</module>
+        <module>07_kudu_spark_2.11</module>
+        <module>08_clickhouse_jdbc</module>
+        <module>09_clickhouse_spark_2.11</module>
+    </modules>
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+
+</project>
